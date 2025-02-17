@@ -106,7 +106,7 @@ def prince():
                 print(f'Post id: {id_post}')
                 print(f'  - Time: {current_time}')
                 print(f'COOKIE NUMBER: {cookie_index + 1}')
-                print(f'Comment sent: {comment_with_name}')
+                print(f'Comment sent {comment_with_name}')
                 x = (x + 1) % len(comments)
                 cookie_index = (cookie_index + 1) % len(valid_cookies)
             else:
